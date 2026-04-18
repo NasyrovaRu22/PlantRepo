@@ -1,6 +1,7 @@
 {
   "name": "plant-repo-vue",
   "version": "0.0.0",
+  "homepage": "https://nasyrovaru22.github.io/PlantRepo",
   "private": true,
   "type": "module",
   "scripts": {
