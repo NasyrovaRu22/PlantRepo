@@ -579,23 +579,25 @@ onMounted(() => {
 </script>
 
 <style scoped>
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 body {
   margin: 0;
   padding: 0;
+  min-height: 100vh;
 }
-
 .app-container {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background: linear-gradient(135deg, #e8f5e9 0%, #c8e6c9 100%);
   min-height: 100vh;
   padding: 20px;
   width: 100%;
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+  color: #2e7d32;
+  margin-bottom: 30px;
+  font-size: 2.2em;
 }
 
 h1 {
